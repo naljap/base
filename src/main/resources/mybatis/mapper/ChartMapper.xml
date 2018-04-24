@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.psh.chart.repository.ChartMapper">
+
+    <!-- 스페셜 팝업 -->
+    <select id="findAll" resultType="DataDay">
+        SELECT  statistic_date,
+                statistic1,
+                statistic2,
+                statistic3,
+                statistic4,
+                statistic5,
+                created_id,
+                created,
+                updated_id,
+                updated
+        FROM    DATA_DAY
+    </select>
+
+</mapper>

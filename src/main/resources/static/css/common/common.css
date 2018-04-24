@@ -1,0 +1,186 @@
+.nav_title {
+    border: 0;
+}
+
+.title_left {
+    padding-bottom: 10px;
+}
+
+.right_col {
+    min-height: 1600px;
+}
+
+#navbar-right-icon {
+    border: 1px solid #515356;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+
+#navbar-right-name {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.li-float-right {
+    float: right !important;
+}
+
+.mt20px {
+    margin-top: 20px !important;
+}
+
+.th200 > tbody > tr > th {
+    width: 200px;
+    background-color: #eee;
+}
+
+.th100 > tbody > tr > th {
+    width: 100px;
+    background-color: #eee;
+}
+
+.chart-legend ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.chart-legend li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.mount_progress {
+    margin-bottom: 0px;
+}
+
+.btn-nomargin {
+    margin: 0;
+}
+
+/*
+.dataTables_wrapper > .row {
+    overflow:auto !important;
+}
+*/
+
+.infratable {
+	width: 100% !important;
+}
+
+.infratable tr th {
+    text-align: center;
+}
+/*
+.infratable tr td {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+*/
+
+.infratable tbody tr:hover td {
+	background: rgba(38,185,154,0.07);
+	
+}
+
+.infratable tbody tr.selected {
+	background: rgba(38,185,154,0.16)
+}
+
+.infratable tbody tr.selected td { 
+	border-top-color: rgba(38,185,154,0.4);
+	border-bottom-color: rgba(38,185,154,0.4)
+}
+
+.breakwordtable {
+	table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.modal-backdrop {
+    z-index: 10000;
+}
+
+.modal {
+    z-index: 10010;
+}
+
+.select2-dropdown {
+	z-index: 10020;
+}
+
+.daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar, .daterangepicker.openscenter .ranges, .daterangepicker.openscenter .calendar {
+    float: left;
+}
+
+table.tile_info td:first-child {
+	width: auto;
+}
+
+.tile_count {
+    margin-bottom: 0px;
+}
+.tile_count .tile_stats_count {
+	height: 40px;
+}
+.tile_count .tile_stats_count .commander {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.command_btn {
+	cursor: pointer;
+}
+
+#commanderModalBody {
+	font-family: monospace;
+}
+
+.shortcut {
+	background-color:#f9f9f9;
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+.shortcut a:hover {
+    background-color:#1ABB9C;
+    color:#fff;
+    text-decoration:none;
+}
+
+.shortcut a { 
+	font-size:14px;
+    display:block;
+    line-height:32px;
+    height:32px;
+    padding-left:10px;
+    border-radius:4px;
+}
+
+.shortcut a .fa { 
+    font-size:16px;
+    
+}
+
+.shortcut a:hover .fa { 
+    font-size:28px;
+    vertical-align:-6px;
+}
+
+.round_search .form-control {
+    border-right: 0;
+    box-shadow: inset 0 1px 0px rgba(0,0,0,0.075);
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 20px;
+    border: 1px solid rgba(221,226,232,0.49);
+}
+
+/*
+.shortcut a .fa {
+    width:32px;
+    font-size:16px;
+    display:inline-block;
+    text-align:right;
+    margin-right:10px;
+}
+*/
